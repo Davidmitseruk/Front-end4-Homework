@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <div class="gallery">
+    <div>
+        <img src="photoone.jpg" alt="Image 1" onclick="openModal(this.src)" class="photo">
+        <img src="phototwo.jpg" alt="Image 2" onclick="openModal(this.src)" class="photo">
+        <img src="photothree.jpg" alt="Image 3" onclick="openModal(this.src)" class="photo">
+    </div>
+    <div>
+        <img src="photofour.jpg" alt="Image 4" onclick="openModal(this.src)" class="photo">
+        <img src="photofive.jpg" alt="Image 5" onclick="openModal(this.src)" class="photo">
+        <img src="photosix.jpg" alt="Image 6" onclick="openModal(this.src)" class="photo">
+    </div>
+   <div>
+    <img src="photoseven.jpg" alt="Image 7" onclick="openModal(this.src)" class="photo">
+    <img src="photoeight.jpg" alt="Image 8" onclick="openModal(this.src)" class="photo">
+    <img src="photonine.jpg" alt="Image 9" onclick="openModal(this.src)" class="photo">
+   </div>
+   
+  </div>
+
+  <div id="myModal" class="modal container">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      <img id="modalImage" src="">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
