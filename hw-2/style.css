@@ -1,0 +1,28 @@
+body {  
+    font-family: "Montserrat";
+    padding-bottom: 600px;
+  }
+  h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .slider {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .slider__input {
+    width: 100%;
+  }
+  .slider__image {
+    display: block;
+    margin: 160px auto;
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 4px;
+  }
+  .title-of-tasks{
+    margin: 0px auto;
+    margin-left: 1037px;
+  }
